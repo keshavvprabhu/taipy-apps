@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Ruff Lint Check",
+			"command": "D:/apps/taipy-apps/.venv/Scripts/ruff check .",
+			"group": "build",
+			"problemMatcher": [
+				"$ruff"
+			]
+		}
+	]
+}
